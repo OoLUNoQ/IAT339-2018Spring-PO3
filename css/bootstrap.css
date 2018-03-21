@@ -6757,4 +6757,13 @@ button.close {
     display: none !important;
   }
 }
+
+
+.no-padding-col{
+  padding: 0 !important;
+}
+
+.no-margin-row{
+  margin: 0 !important;
+}
 /*# sourceMappingURL=bootstrap.css.map */

@@ -8,8 +8,24 @@
 
 .menu a{
     text-decoration: none;
-    color: black;
     font-size: 1em;
+    color: darkgrey;
+    text-align: center;
+    display: block;
+}
+
+.menu-active{
+    border-right: 2px solid tomato;
+    color: black !important;
+}
+
+.menu-active i{
+    color: tomato;
+    opacity: 0.7;
+}
+
+.menu-active i:hover{
+    opacity: 1;
 }
 
 .content{
@@ -24,8 +40,19 @@
 }
 
 .content-home-title{
-    position: absolute;
-    left: 40%;
-    top: 35%;
+    /*position: absolute;*/
+    /*left: 40%;*/
+    /*top: 35%;*/
+    display: block;
+    padding-top: 25%;
     text-align: center;
+}
+
+.content-home-title h1{
+    color: tomato;
+    font-size: 4em;
+}
+
+.content-home-title h4{
+    font-weight: normal;
 }
