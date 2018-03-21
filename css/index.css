@@ -1,0 +1,14 @@
+.container{
+    min-height: 100vh;
+}
+
+.menu{
+
+}
+
+.content{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
