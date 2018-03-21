@@ -6,9 +6,26 @@
 
 }
 
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
 .content{
     background-image: url("../images/bg.png");
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+.content-home{
+    min-height: 100vh;
+}
+
+.content-home-title{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    text-align: center;
 }
