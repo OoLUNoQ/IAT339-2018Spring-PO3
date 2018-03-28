@@ -119,6 +119,16 @@
     margin-top: 40px !important;
 }
 
+.card-top-arrow{
+    position: absolute;
+    height: 110px;
+    width: 100px;
+}
+
+.card-top-arrow i{
+    color: tomato;
+}
+
 /**********************************************/
 /*****         css for home page          *****/
 /**********************************************/
@@ -350,4 +360,30 @@
 
 #contact-content-content button:hover{
     background-color: #ff8765;
+}
+
+/**********************************************/
+/*****    css for project detail page     *****/
+/**********************************************/
+#content-project-detail{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#project-detail-content-content{
+    margin: 30px 15px 0 15px !important;
+}
+
+#project-detail-content-content img{
+    width: 100%;
+}
+
+#project-detail-content-content h4{
+    border-left: 2px solid tomato;
+    padding: 0 5px;
+}
+
+#project-detail-content-content p{
+    padding: 0 6px;
+    margin: 20px 0;
 }
