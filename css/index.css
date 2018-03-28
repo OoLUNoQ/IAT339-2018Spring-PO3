@@ -185,6 +185,75 @@
     margin-bottom: 20px;
 }
 
+#resume-content-content{
+    margin: 30px 15px 0 15px !important;
+}
+
+#resume-content-content h4{
+    border-left: 2px solid tomato;
+    padding: 0 5px;
+}
+
+.resume-edu-div{
+    margin-bottom: 25px;
+    padding-left: 7px;
+}
+
+.resume-edu-time{
+    display: inline;
+    color: white;
+    background-color: tomato;
+    padding: 2px 5px;
+}
+
+.resume-work-div{
+    margin-bottom: 25px;
+    padding-left: 7px;
+}
+
+.resume-work-div h5{
+    margin-bottom: 0;
+}
+
+.resume-work-div p{
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.resume-work-time{
+    display: inline;
+    color: white !important;
+    background-color: tomato;
+    padding: 2px 5px;
+}
+
+#resume-skill-div div{
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+
+#resume-skill-div div span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#resume-design-skill-title{
+    margin-top: 30px;
+}
+
+#cv-download-btn{
+    margin: 20px 30px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+}
+
+#cv-download-btn:hover{
+    background-color: #ff8765;
+    text-decoration: none;
+}
+
 /**********************************************/
 /*****       css for portfolio page       *****/
 /**********************************************/
