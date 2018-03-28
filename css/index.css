@@ -77,6 +77,39 @@
     border-radius: 5px;
 }
 
+.card-title{
+    text-align: center;
+}
+
+.card-title h1{
+    color: lightgrey;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.8em;
+}
+
+.card-title h5{
+    background-color: tomato;
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    padding: 2px 4px;
+    margin-left: 4em;
+    margin-top: 0;
+
+}
+
+.card-top-border{
+    position: absolute;
+    border-left: 4px solid tomato;
+    border-top: 4px solid tomato;
+    height: 110px;
+    width: 100px;
+}
+
+#content-content{
+    margin-top: 30px !important;
+}
 /*especially for home page*/
 
 .content-home-title{
@@ -96,3 +129,7 @@
 }
 
 /*css for bio page*/
+#content-bio{
+    padding: 20px 20px 10px 20px;
+}
+
