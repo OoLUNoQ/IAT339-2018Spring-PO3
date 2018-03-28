@@ -34,11 +34,58 @@
     transition: all .4s ease-in;
 }
 
+.menu-mobile-row{
+    display: none;
+}
+
+.menu-mobile-header{
+    position: fixed;
+    z-index: 50;
+    background-color: white;
+    height: 40px;
+}
+
+.menu-mobile-header img{
+    width: 40px;
+}
+
+.menu-mobile-header button{
+    float: right;
+    color: tomato;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.menu-mobile{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 40px;
+    background-color: white;
+}
+
+.menu-mobile a{
+    display: block;
+    border-left: 4px solid white;
+    color: #888888;
+    margin: 5px 0;
+    padding-left: 30px;
+}
+
+#mobile-menu-active{
+    border-left: 4px solid tomato;
+    color: black;
+}
+
 #icon{
     color: tomato;
     margin-top: 20px;
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+#icon:hover{
+    border-color: white !important;
 }
 
 #icon img{
@@ -386,4 +433,23 @@
 #project-detail-content-content p{
     padding: 0 6px;
     margin: 20px 0;
+}
+
+
+
+/**********************************************/
+/*****     mobile responsive updating     *****/
+/**********************************************/
+@media  screen  and (max-width: 991px){
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile-row{
+        display: block;
+    }
+
+    .content{
+        margin-top: 40px;
+    }
 }
