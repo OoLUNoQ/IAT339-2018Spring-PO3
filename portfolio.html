@@ -56,11 +56,26 @@
                             <h5>My Best Projects</h5>
                         </div>
 
-                        <div class="row no-margin-row" id="content-content">
-                            <div class="col-md-4 col-sm-6">
-                            </div>
-                            <div class="col-md-4 col-sm-6">
+                        <div class="row no-margin-row" id="project-content-content">
+                            <div class="col-md-4 col-sm-6 project-div">
+                                <a href="portfolio-1-cograil.html">
+                                    <img src="images/pj1-cograil-bg-c.png" alt="cograil">
 
+                                    <div class="project-title-div animated">
+                                        <h4>Cograils</h4>
+                                        <h6>Game Design</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-6 project-div">
+                                <a href="portfolio-2-magic.html">
+                                    <img src="images/pj2-magic-bg-c.png" alt="cograil">
+
+                                    <div class="project-title-div animated">
+                                        <h4>Magic</h4>
+                                        <h6>Software Develop</h6>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-4 col-sm-6">
 
@@ -74,4 +89,14 @@
     </div>
 </div>
 </body>
+
+<script>
+    $(".project-div").hover(function () {
+        $(this).find('.project-title-div').css('display','inline-block').addClass("slideInUp");
+    });
+
+    $(".project-div").mouseleave(function () {
+        $(this).find('.project-title-div').css('display','none').removeClass("slideInUp");
+    });
+</script>
 </html>

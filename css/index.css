@@ -193,6 +193,34 @@
     margin-bottom: 20px;
 }
 
+#project-content-content{
+    margin: 30px 15px 0 15px !important;
+}
+
+#project-content-content img{
+    width: 100%;
+}
+
+.project-div a{
+    color: black;
+}
+
+.project-title-div{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 15px;
+    opacity: 0.8;
+    padding: 10px;
+    display: none;
+}
+
+.project-title-div h4{
+    margin: 0;
+}
 /**********************************************/
 /*****        css for contact page        *****/
 /**********************************************/
