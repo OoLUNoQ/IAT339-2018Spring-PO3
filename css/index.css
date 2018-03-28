@@ -119,7 +119,9 @@
     margin-top: 40px !important;
 }
 
-/*especially for home page*/
+/**********************************************/
+/*****         css for home page          *****/
+/**********************************************/
 .content-home-title{
     display: block;
     padding-top: 25%;
@@ -136,7 +138,9 @@
     color: #666666;
 }
 
-/*css for bio page*/
+/**********************************************/
+/*****          css for bio page          *****/
+/**********************************************/
 #content-bio{
     padding: 20px;
     margin-bottom: 20px;
@@ -173,20 +177,80 @@
     color: tomato !important;
 }
 
-/*css for resume page*/
+/**********************************************/
+/*****         css for resume page        *****/
+/**********************************************/
 #content-resume{
     padding: 20px;
     margin-bottom: 20px;
 }
 
-/*css for portfolio page*/
+/**********************************************/
+/*****       css for portfolio page       *****/
+/**********************************************/
 #content-portfolio{
     padding: 20px;
     margin-bottom: 20px;
 }
 
-/*css for contact page*/
+/**********************************************/
+/*****        css for contact page        *****/
+/**********************************************/
 #content-contact{
     padding: 20px;
     margin-bottom: 20px;
+}
+
+#contact-content-content{
+    margin: 30px 15px 0 15px !important;
+}
+
+#contact-content-content h4{
+    border-left: 2px solid tomato;
+    padding: 0 5px;
+}
+
+#contact-content-content p{
+    padding: 0 6px;
+    margin: 20px 0;
+}
+
+#contact-content-info{
+    padding: 0 6px;
+}
+
+#contact-content-info div{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#contact-content-info div i{
+    color: tomato;
+    margin-right: 10px;
+}
+
+#contact-content-content input{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+
+#contact-content-content textarea{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-color: lightgrey;
+}
+
+#contact-content-content button{
+    margin: 20px 0;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+}
+
+#contact-content-content button:hover{
+    background-color: #ff8765;
 }
