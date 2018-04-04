@@ -436,6 +436,35 @@
 }
 
 
+/**********************************************/
+/*****       css for reference page       *****/
+/**********************************************/
+#content-reference{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#reference-content-content{
+    margin: 30px 15px 0 15px !important;
+}
+
+#reference-content-content h4{
+    border-left: 2px solid tomato;
+    padding: 0 5px;
+}
+
+#reference-content-content a{
+    padding: 0 6px;
+    display: block;
+}
+
+/**********************************************/
+/*****        css for swiper arrow        *****/
+/**********************************************/
+.swiper-button-next{
+
+}
+
 
 /**********************************************/
 /*****     mobile responsive updating     *****/

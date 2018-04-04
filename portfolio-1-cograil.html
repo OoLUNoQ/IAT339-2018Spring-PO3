@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -11,10 +11,9 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/fontawesome.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
-    <script src="js/jQuery.js"></script>
-    <script src="js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -44,6 +43,10 @@
             <a href="contact.html">
                 <i class="fas fa-envelope fa-3x"></i>
                 Contact
+            </a>
+            <a href="reference.html">
+                <i class="fas fa-cog fa-3x"></i>
+                Reference
             </a>
         </div>
 
@@ -77,7 +80,20 @@
 
                         <div class="row no-margin-row" id="project-detail-content-content">
                             <div class="col-md-6 col-sm-12">
-                                <img src="images/pj1-cograil-sc.png" alt="pj-1-screentshot">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/pj1-cograil-sc.png" alt="pj-1-screentshot"></div>
+                                        <div class="swiper-slide"><img src="images/pj1-cograil-sc1.png" alt="pj-1-screentshot1"></div>
+                                        <div class="swiper-slide"><img src="images/pj1-cograil-sc2.png" alt="pj-1-screentshot2"></div>
+                                        <div class="swiper-slide"><img src="images/pj1-cograil-sc3.gif" alt="pj-1-screentshot3"></div>
+                                        <div class="swiper-slide"><img src="images/pj1-cograil-sc4.png" alt="pj-1-screentshot4"></div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
                             </div>
                             <div class="col-md-6 col-sm-12">
                                 <h4>Description</h4>
@@ -98,6 +114,27 @@
         </div>
     </div>
 </div>
-</body>
+
+
+<script src="js/jQuery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+//        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 <script src="js/menu-control.js"></script>
+
+</body>
 </html>

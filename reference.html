@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bo Lun Qi - Portfolio</title>
+    <title>Bo Lun Qi - Style Guide</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <i class="fas fa-address-card fa-3x"></i>
                 Resume
             </a>
-            <a href="portfolio.html" id="menu-active">
+            <a href="portfolio.html">
                 <i class="fab fa-connectdevelop fa-3x"></i>
                 Portfolio
             </a>
@@ -42,7 +42,7 @@
                 <i class="fas fa-envelope fa-3x"></i>
                 Contact
             </a>
-            <a href="reference.html">
+            <a href="reference.html" id="menu-active">
                 <i class="fas fa-cog fa-3x"></i>
                 Reference
             </a>
@@ -57,44 +57,37 @@
                 <a href="index.html">Home</a>
                 <a href="aboutme.html">About Me</a>
                 <a href="resume.html">Resume</a>
-                <a href="portfolio.html" id="mobile-menu-active">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html" id="mobile-menu-active">Contact</a>
             </div>
         </div>
 
         <div class="col-md-10 col-xs-12 no-padding-col">
             <div class="content">
-                <div class="content-card animated slideInUp">
-                    <div id="content-portfolio">
+                <div class="content-card animated rotateInUpRight">
+                    <div id="content-reference">
                         <div class="card-top-border"></div>
                         <div class="card-title">
-                            <h1>Portfolio</h1>
-                            <h5>My Best Projects</h5>
+                            <h1>Reference</h1>
+                            <h5>All Citations Are Here</h5>
                         </div>
 
-                        <div class="row no-margin-row" id="project-content-content">
-                            <div class="col-md-4 col-sm-6 project-div">
-                                <a href="portfolio-1-cograil.html">
-                                    <img src="images/pj1-cograil-bg-c.png" alt="cograil">
+                        <div class="row no-margin-row" id="reference-content-content">
+                            <div class="col-md-12 col-sm-12">
+                                <h4>Style Guide</h4>
+                                <a href="style-guide.html" target="_blank">http://www.sfu.ca/~allanq/IAT339/Project/PO3/Final/style-guide.html</a>
 
-                                    <div class="project-title-div animated">
-                                        <h4>Cograils</h4>
-                                        <h6>Game Design</h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 project-div">
-                                <a href="portfolio-2-magic.html">
-                                    <img src="images/pj2-magic-bg-c.png" alt="cograil">
+                                <h4>Git Hub</h4>
+                                <a href="https://github.com/OoLUNoQ/IAT339-2018Spring-PO3" target="_blank">https://github.com/OoLUNoQ/IAT339-2018Spring-PO3</a>
 
-                                    <div class="project-title-div animated">
-                                        <h4>Magic</h4>
-                                        <h6>Software Develop</h6>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-
+                                <h4>Citations</h4>
+                                <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>
+                                <a href="https://code.jquery.com/jquery/" target="_blank">https://code.jquery.com/jquery/</a>
+                                <a href="https://github.com/nolimits4web/Swiper/blob/master/demos/200-infinite-loop.html" target="_blank">https://github.com/nolimits4web/Swiper/blob/master/demos/200-infinite-loop.html</a>
+                                <a href="https://daneden.github.io/animate.css/" target="_blank">https://daneden.github.io/animate.css/</a>
+                                <a href="http://lmpixels.com/demo/unique/unique-vcard/index-dark.html" target="_blank">http://lmpixels.com/demo/unique/unique-vcard/index-dark.html</a>
+                                <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a>
+                                <a href="https://www.w3schools.com/html/" target="_blank">https://www.w3schools.com/html/</a>
                             </div>
                         </div>
                         <div class="card-btm-border"></div>
@@ -108,15 +101,6 @@
 <script src="js/jQuery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/menu-control.js"></script>
-<script>
-    $(".project-div").hover(function () {
-        $(this).find('.project-title-div').css('display','inline-block').addClass("slideInUp");
-    });
-
-    $(".project-div").mouseleave(function () {
-        $(this).find('.project-title-div').css('display','none').removeClass("slideInUp");
-    });
-</script>
 
 </body>
 </html>
