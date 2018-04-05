@@ -76,7 +76,7 @@ section .sample-code{
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: darkorange;
+  background-color: tomato;
   color: white;
   border-color: white;
 }
@@ -86,8 +86,8 @@ section .sample-code{
 }
 
 .button-submit{
-  background-color: darkorange;
-  border-color: darkorange;
+  background-color: tomato;
+  border-color: tomato;
   color: white;
   font-weight: bold;
   font-size: 1.3em;
@@ -96,8 +96,8 @@ section .sample-code{
 }
 
 .button-submit:hover{
-  background-color: #FFB217;
-  border-color: #FFB217;
+  background-color: #ff6a1b;
+  border-color: #ff6a1b;
 }
 
 .input-box{
@@ -161,13 +161,13 @@ section .sample-code{
 }
 
 #nav-main-selected{
-  color: darkorange;
+  color: tomato;
 }
 
 
 .nav-main a:hover{
-  background-color: darkorange;
-  color: white !important;
+  border-bottom: 5px solid tomato;
+  padding-bottom: 5px;
 }
 
 /*Grid Structure*/
@@ -239,8 +239,8 @@ section .sample-code{
   display: inline-block;
 }
 
-.p-color-orange{
-  background-color: #ffc126;
+.p-color-tomato{
+  background-color: tomato;
   height: 50px;
   width: 200px;
   display: inline-block;
