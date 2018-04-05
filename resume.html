@@ -13,6 +13,27 @@
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function() {
+            //remove the change the animate effect with screen size less than 786px
+            var windowsize = $(window).width();
+            $(window).resize(function () {
+                var windowsize = $(window).width();
+            });
+
+            function updateAnimation() {
+                if (windowsize <= 991) {
+                    $('.content-card ').addClass("animated rotateInDownLeft");
+                } else {
+                    $('.content-card').addClass('animated rotateInDownRight');
+                }
+            }
+            updateAnimation();
+        });
+    </script>
+
 </head>
 
 <body>
@@ -65,7 +86,7 @@
 
         <div class="col-md-10 col-xs-12 no-padding-col">
             <div class="content">
-                <div class="content-card animated rotateInDownRight">
+                <div class="content-card">
                     <div id="content-resume">
                         <div class="card-top-border"></div>
                         <div class="card-title">
@@ -139,8 +160,6 @@
     </div>
 </div>
 
-<script src="js/jQuery.js"></script>
-<script src="js/bootstrap.js"></script>
 <script src="js/menu-control.js"></script>
 
 </body>

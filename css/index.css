@@ -487,6 +487,10 @@
     .content-home-title{
         padding-top: 40%;
     }
+
+    .project-div{
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 414px) {
