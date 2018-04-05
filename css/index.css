@@ -428,6 +428,13 @@
     width: 100%;
 }
 
+#project-detail-content-content iframe{
+    margin-top: 20px;
+    width: 100%;
+    height: 225px;
+    border: none;
+}
+
 #project-detail-content-content h4{
     border-left: 2px solid tomato;
     padding: 0 5px;
@@ -480,6 +487,10 @@
 
     .content{
         margin-top: 40px;
+    }
+
+    #project-detail-content-content iframe{
+        height: auto;
     }
 }
 
