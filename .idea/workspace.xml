@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc9c8edf-9c57-4e5f-ba83-4d5ce7210721" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-guide.css" afterPath="$PROJECT_DIR$/css/style-guide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style-guide.html" afterPath="$PROJECT_DIR$/style-guide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio-2-magic.html" afterPath="$PROJECT_DIR$/portfolio-2-magic.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="portfolio-1-cograil.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio-1-cograil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="146" column="7" lean-forward="true" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
+            <state relative-caret-position="358">
+              <caret line="98" column="41" lean-forward="false" selection-start-line="97" selection-start-column="32" selection-end-line="98" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -80,8 +79,8 @@
       <file leaf-file-name="portfolio-2-magic.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio-2-magic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+            <state relative-caret-position="244">
+              <caret line="95" column="73" lean-forward="true" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -130,10 +129,10 @@
         <option value="$PROJECT_DIR$/aboutme.html" />
         <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/portfolio-2-magic.html" />
         <option value="$PROJECT_DIR$/portfolio-1-cograil.html" />
         <option value="$PROJECT_DIR$/style-guide.html" />
         <option value="$PROJECT_DIR$/css/style-guide.css" />
+        <option value="$PROJECT_DIR$/portfolio-2-magic.html" />
       </list>
     </option>
   </component>
@@ -237,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521652894066</updated>
       <workItem from="1521652896215" duration="12901000" />
-      <workItem from="1521832649516" duration="35791000" />
+      <workItem from="1521832649516" duration="36300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48692000" />
+    <option name="totallyTimeSpent" value="49201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -441,14 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio-1-cograil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="146" column="7" lean-forward="true" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style-guide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -465,10 +456,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-1-cograil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="98" column="41" lean-forward="false" selection-start-line="97" selection-start-column="32" selection-end-line="98" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio-2-magic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="132" column="21" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        <state relative-caret-position="244">
+          <caret line="95" column="73" lean-forward="true" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
           <folding />
         </state>
       </provider>
