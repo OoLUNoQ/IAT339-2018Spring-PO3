@@ -86,13 +86,11 @@ section .sample-code{
 }
 
 .button-submit{
-  background-color: tomato;
-  border-color: tomato;
-  color: white;
-  font-weight: bold;
   font-size: 1.3em;
-  padding: 0.5em 1em;
-  border-radius: 15px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 5px 30px;
 }
 
 .button-submit:hover{

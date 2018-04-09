@@ -98,22 +98,36 @@
                             </div>
                             <div class="col-md-6 col-sm-12">
                                 <h4>Description</h4>
-                                <p class="pd-description"><i class="fas fa-calendar-alt"></i> 2018 Spring</p>
-                                <p class="pd-description"><i class="fas fa-info-circle"></i> Software Development (Team of 3)</p>
-                                <p class="pd-description"><i class="fas fa-user-circle"></i> Programmer/UX Design/Video Editor</p>
+                                <p class="pd-description" data-toggle="tooltip" title="Time"><i class="fas fa-calendar-alt"></i> 2018 Spring</p>
+                                <p class="pd-description" data-toggle="tooltip" title="Basic Info"><i class="fas fa-info-circle"></i> Software Development (Team of 3)</p>
+                                <p class="pd-description" data-toggle="tooltip" title="My Role"><i class="fas fa-user-circle"></i> Programmer / UX Design / Video Editor</p>
 
                                 <h4 id="pd-analysis-title">Process Analysis</h4>
-                                <p>Magic is my team's winning entry into SIAT's 10th Year Anniversary competition, a conceptual interaction
-                                    for a wearable bracelet. Tasked with the words "Social Innovation", I worked with Johnson Zhu and Carlo
-                                    Lai to come up with the idea of enhancing greetings with technology in the background.</p>
-                                <p>The brief wanted us to address "social innovation" in a way that benefitted society. Our team consisted
-                                    of a 3D modeler, a developer, and myself as designer. Immediately our group constrained the two week
-                                    competition using our own interests and skillsets to make the project manageable. So we looked to
-                                    technology trends for inspiration of how to start this idea.</p>
-                                <p>In the timeframe of the project (2013) Google Glasses were discussed extensively in media. For our group
-                                    the aspect that stood out was the discussion of the benefits of technology without the disruption of
-                                    technology. As we brainstormed different ideas, it needed to pass that criteria to be considered. Our
-                                    group wanted to ground our decisions around keeping the human touch in our design concept.</p>
+                                <p>The impetus behind MAGIC came from the surprising lack of tools supporting the active, simultaneous
+                                    development of multiple, alternative solutions. Artists typically begin their work with traditional
+                                    pen and paper, which is sufficient for the quick recording of rough ideas. However, intermediary and
+                                    more polished sketches are better created digitally, where computational tools offer the benefits of
+                                    quick duplication and manipulation. While some experimental tools do explore the possibility of
+                                    simultaneous exploration, there are currently none which analyze the contents of the drawing space.
+                                    We propose a new tool, MAGIC (Make and Generate Intelligent Combinations) that intelligently recognizes
+                                    the composition of subjects being sketched, and will retrieve sketches of common objects based on labels
+                                    defined by the user, system-detected general shapes, as well as the user’s drawing input. 
+                                </p>
+                                <p>The workhorse of MAGIC will be its combination generation function, which allows artists to quickly combine
+                                    multiple sketches and preview combinations, which are retrieved via user-defined hierarchy trees. Like
+                                    preceding tools, MAGIC will also support the development of one or multiple sketches simultaneously,
+                                    offer variation-independent history keeping, and provide means to categorize and organize sketches based
+                                    on labels and annotations. 
+                                </p>
+                                <p>The MAGIC is still on the alpha stage which I believe it has the potential to be developed further.
+                                    One of the challenge we keep struggling during the design phase is whether make the team collaboration
+                                    as the major function of the software, we find that most creative support tools support team collaboration,
+                                    such as Google Docs. In order to dig this problem further, we have interviewed with many artists, and we
+                                    come up the final solution. Because our targeted users are game artists, or those artists tasked with
+                                    creating the visual assets for environments, game objects, and character designs. Although they are often
+                                    part of larger game design teams, they usually do the bulk of their work alone. Thus, team collaboration
+                                    in MAGIC is not a priority at this time. 
+                                </p>
                             </div>
                         </div>
                         <div class="card-btm-border"></div>
@@ -144,6 +158,10 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
 <script src="js/menu-control.js"></script>
